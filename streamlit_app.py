@@ -98,7 +98,7 @@ if st.button("🔮 Predict Price Now", type="secondary", width="stretch"):
 
             # Display result
             st.balloons()
-            st.success(f"### 💰 Estimated Price: ₹ {predicted_price:,.2f}")
+            st.success(f"### 💰 Estimated Price: $ {predicted_price:,.2f}")
             
             # Show car details in expandable section
             with st.expander("📋 View Full Details"):
