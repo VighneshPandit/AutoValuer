@@ -111,7 +111,7 @@ if st.button("🔮 Predict Price Now", type="secondary", width="stretch"):
                 
                 with detail_col2:
                     st.metric("Year", year)
-                    st.metric("Engine Size", f"{engine_size} L")
+                    st.metric("Engine Size", f"{engine_size:,.2f} L")
                     st.metric("Mileage", f"{mileage:,} km")
             
         except Exception as e:
